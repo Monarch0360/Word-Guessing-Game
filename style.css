@@ -1,0 +1,42 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main > h1,h2{
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+#h3{
+    color: grey;
+    font-size: 20px;
+}
+
+#h4{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+main > button{
+
+    display: block;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+.btn-letter{
+    border-radius: 5px;
+    background-color: rgb(255, 243, 134);
+    border-color: rgb(255, 190, 68);
+    padding: 10px;
+    margin: 5px;
+    color: black;  
+}
+
+#letters{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    margin: 0 auto;
+    justify-content: center;
+}
